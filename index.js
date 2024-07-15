@@ -1,11 +1,12 @@
 
 let { SuffixArray } = require("mnemonist");
 let GeneralizedSuffixArray = SuffixArray.GeneralizedSuffixArray;
-
 let SEPARATOR = '\u0001';
+
 var sa = new GeneralizedSuffixArray(getTokens());
 let entries = sa.array.map(idx => sa.text.slice(idx, idx + 40).replaceAll(SEPARATOR, ' ')+'...');
 let windEntries = entries.filter(s => s.startsWith('wind'));
+
 console.log(windEntries);
 
 function getTokens() {
