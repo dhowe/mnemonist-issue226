@@ -1,6 +1,6 @@
 # mnemonist-issue226
 
-Running the program in `index.js` give the following result.
+Running the program in `index.js` gives the following result.
 
 As shown below entries which should be adjacent in the sort are not.
 
