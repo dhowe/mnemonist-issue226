@@ -2,7 +2,7 @@
 
 Running the program in `index.js` gives the following result.
 
-As shown below, entries which should be adjacent in the sort ( eg. `'wind and ...'` ) are not.
+As shown below, entries which should be adjacent in the sort (eg. `'wind and ...'` ) are not.
 
 See https://github.com/Yomguithereal/mnemonist/issues/226
 
